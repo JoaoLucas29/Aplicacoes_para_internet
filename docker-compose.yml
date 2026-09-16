@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: ideias-votos-db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: ideias_votos
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./src/main/resources/db/script.sql:/docker-entrypoint-initdb.d/script.sql
+      - db_data:/var/lib/mysql
+
+  tomcat:
+    image: tomcat:9-jdk11
+    container_name: ideias-votos-app
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./target/ideias-votos.war:/usr/local/tomcat/webapps/ideias-votos.war
+    depends_on:
+      - mysql
+
+volumes:
+  db_data:
