@@ -36,8 +36,8 @@ Este projeto substitui o protótipo `ideias-votos`. As mudanças mais relevantes
 
 | Nome | Papel |
 |---|---|
-| João Lucas F.M. Rodrigues | Desenvolvedor(a) |
-| Gabriel Pereira de Queiroz | Desenvolvedor(a) |
+| João Lucas F.M. Rodrigues | Desenvolvedor |
+| Gabriel Pereira de Queiroz | Desenvolvedor |
 
 ## Tecnologias utilizadas
 
