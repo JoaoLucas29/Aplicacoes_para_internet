@@ -91,7 +91,7 @@ docker-compose up --build
 ## Solução de problemas
 
 **Erro 404 ao abrir o navegador**
-- Confirme que a URL é `http://localhost:8080/ideias-votos/` (com o nome do contexto e a barra final), não apenas `http://localhost:8080/`.
+- Confirme que a URL é `http://localhost:8080/ideiaviva/` (com o nome do contexto e a barra final), não apenas `http://localhost:8080/`.
 - Verifique se `target/ideias-votos.war` foi gerado (`mvn clean package` precisa rodar sem erro antes do `docker-compose up`).
 - Veja o log do container com `docker logs ideias-votos-app` e procure por `Deploying web application archive ideias-votos.war`.
 
