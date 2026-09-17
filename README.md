@@ -229,11 +229,11 @@ ideiaviva/
 
 ## Solução do Erro 404
 
-- Caso isso ocorra: 'dcker compose down'
-- Depois faça: rmdir /s /q target em caso de erro use Remove-Item -Recurse -Force target
-- Logo em seguinda use: mvn clean package
-- Por fim: docker compose up -d
-- Se necessároi confira: docker ps
+- Caso isso ocorra: `dcker compose down` 
+- Depois faça: `rmdir /s /q target` em caso de erro use `Remove-Item -Recurse -Force target`
+- Logo em seguida use: `mvn clean package`
+- Por fim: `docker compose up -d`
+- Se necessároi confira: `docker ps`
   
 ## IMPORTANTE 
 
