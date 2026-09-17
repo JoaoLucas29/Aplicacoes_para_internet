@@ -36,8 +36,8 @@ Este projeto substitui o protótipo `ideias-votos`. As mudanças mais relevantes
 
 | Nome | Papel |
 |---|---|
-| _(preencher)_ | Desenvolvedor(a) |
-| _(preencher)_ | Desenvolvedor(a) |
+| João Lucas F.M. Rodrigues | Desenvolvedor(a) |
+| Gabriel Pereira de Queiroz | Desenvolvedor(a) |
 
 ## Tecnologias utilizadas
 
@@ -234,3 +234,8 @@ ideiaviva/
 - Paginacao na listagem de ideias.
 - Categorias/tags para as ideias.
 - Notificacoes quando a propria ideia recebe um novo voto ou comentario.
+
+Solução de problemas
+Erro 404 ao abrir o navegador
+
+- Confirme que a URL é http://localhost:8080/ideiaviva/ (com o nome do contexto e a barra final), não apenas http://localhost:8080/.
