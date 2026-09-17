@@ -229,12 +229,12 @@ ideiaviva/
 
 ## Solução do Erro 404
 
-- Caso isso ocorra dcker compose down
+- Caso isso ocorra: 'dcker compose down'
 - Depois faça: rmdir /s /q target em caso de erro use Remove-Item -Recurse -Force target
 - Logo em seguinda use: mvn clean package
 - Por fim: docker compose up -d
 - Se necessároi confira: docker ps
-- 
+  
 ## IMPORTANTE 
 
 - Confirme que a URL é http://localhost:8080/ideiaviva/ (com o nome do contexto e a barra final), não apenas http://localhost:8080/.
