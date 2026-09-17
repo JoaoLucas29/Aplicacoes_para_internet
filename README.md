@@ -236,8 +236,8 @@ ideiaviva/
 - Se necessároi confira: `docker ps`
   
 ## IMPORTANTE 
-
-- Confirme que a URL é http://localhost:8080/ideiaviva/ (com o nome do contexto e a barra final), não apenas http://localhost:8080/.
+- Se http://localhost:8080/, der erro
+- Use http://localhost:8080/ideiaviva/ 
 
 ## Possiveis evolucoes futuras
 
